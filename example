@@ -1,0 +1,65 @@
+# Arithmetic operators
+x = 10
+y = 3
+print(x + y)  # Addition
+print(x - y)  # Subtraction
+print(x * y)  # Multiplication
+print(x / y)  # Division
+print(x % y)  # Modulo
+print(x ** y)  # Exponentiation
+print(x // y)  # Floor division
+
+# Comparison operators
+print(x == y)  # Equal to
+print(x != y)  # Not equal to
+print(x > y)  # Greater than
+print(x < y)  # Less than
+print(x >= y)  # Greater than or equal to
+print(x <= y)  # Less than or equal to
+
+# Logical operators
+a = True
+b = False
+print(a and b)  # Logical AND
+print(a or b)  # Logical OR
+print(not a)  # Logical NOT
+
+# Bitwise operators
+x = 10  # Binary 1010
+y = 4  # Binary 0100
+print(x & y)  # Bitwise AND
+print(x | y)  # Bitwise OR
+print(~x)  # Bitwise NOT
+print(x ^ y)  # Bitwise XOR
+print(x << 2)  # Bitwise left shift
+print(x >> 2)  # Bitwise right shift
+
+# Assignment operators
+x = 5
+x += 3  # Addition assignment
+print(x)
+x -= 3  # Subtraction assignment
+print(x)
+x *= 3  # Multiplication assignment
+print(x)
+x /= 3  # Division assignment
+print(x)
+x %= 3  # Modulo assignment
+print(x)
+x //= 3  # Floor division assignment
+print(x)
+x **= 3  # Exponentiation assignment
+print(x)
+
+# Identity operators
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is z)  # Returns True because z is the same object as x
+print(x is y)  # Returns False because x is not the same object as y, even if they have the same content
+print(x == y)  # Returns True because x and y have the same content
+
+# Membership operators
+fruits = ["apple", "banana"]
+print("apple" in fruits)  # Returns True because "apple" is in the fruits list
+print("orange" not in fruits)  # Returns True because "orange" is not in the fruits list
