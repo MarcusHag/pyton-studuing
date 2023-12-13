@@ -1,0 +1,14 @@
+# Complex Python example: Voting eligibility
+
+# Get user input for age
+user_age = input("Enter your age: ")
+
+# Convert the user input to an integer
+age = int(user_age)
+
+# Check if the user is eligible to vote
+if age >= 18:
+    print("Congratulations! You are eligible to vote.")
+else:
+    years_until_eligible = 18 - age
+    print(f"Sorry, you are not eligible to vote yet. You need to wait {years_until_eligible} years.")
