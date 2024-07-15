@@ -63,3 +63,5 @@ print(x == y)  # Returns True because x and y have the same content
 fruits = ["apple", "banana"]
 print("apple" in fruits)  # Returns True because "apple" is in the fruits list
 print("orange" not in fruits)  # Returns True because "orange" is not in the fruits list
+
+// I have to realize how other operators work
